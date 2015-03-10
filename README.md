@@ -32,6 +32,10 @@ Contents:
   - 2class-unbalanced-train/test.txt: the same, but the sizes of the calsses 
                      are not equal.
                      
+
+  - 3class-balanced/unbalanced-train/test/validation.txt: the same, but for 3 classes 
+                     instead of just 2.
+
   - 5class-balanced/unbalanced-train/test.txt: the same, but for 5 classes 
                      instead of just 2.
 
