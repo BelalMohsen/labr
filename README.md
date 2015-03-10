@@ -73,13 +73,15 @@ Demo
 ---------
 In order to replicate the splits with different test/train/validation precent 
 
->>l=LABR()
->>(rating, a, b, c, body)=l.read_clean_reviews()
->>l.split_train_validation_test_3class(self, rating, percent_test, percent_valid,
+>l=LABR()
+
+>(rating, a, b, c, body)=l.read_clean_reviews()
+
+>l.split_train_validation_test_3class(self, rating, percent_test, percent_valid,
                                 balanced="unbalanced"):
 
 
-In order to Try new classifier just add it to "classifiers" list in Definations.py
+In order to try new classifier just add it to "classifiers" list in Definations.py
 then run experiment.py
    
 Reference
