@@ -10,6 +10,7 @@ Created on Sun Apr 14 19:05:12 2013
 from Definations import *
 from symbol import return_stmt
 import matplotlib.pyplot as plt
+import numpy as np
 import codecs
 import re
 

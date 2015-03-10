@@ -36,7 +36,7 @@ class LABR:
 
     # cleans a single review
     def clean_raw_review(self, body):
-         # patterns to remove first
+        # patterns to remove first
         pat = [\
             (u'http[s]?://[a-zA-Z0-9_\-./~\?=%&]+', u''),  # remove links
             (u'www[a-zA-Z0-9_\-?=%&/.~]+', u''),

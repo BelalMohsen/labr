@@ -18,6 +18,7 @@ from sklearn.manifold import isomap
 import numpy as np
 from scipy.sparse import hstack
 
+
 gr = LABR()
 scores = list()
 
