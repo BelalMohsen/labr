@@ -61,9 +61,8 @@ for data in datas:
                     X_test =  X_test1
                     X_train=X_train.tocsr()
                     X_test=X_test.tocsr()                
-                else:
                     
-                    for clf in classifiers:                    
+                for clf in classifiers:                    
                             pred = Train_And_Predict(X_train, y_train, X_test, clf['clf'], clf["name"])            
                             
                             
@@ -85,6 +84,7 @@ for s in scores:
     print("")
     for k, v in s.iteritems():
         print(k, v)
+
 
 
 
