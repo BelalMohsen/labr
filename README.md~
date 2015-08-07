@@ -75,7 +75,7 @@ In order to replicate the splits with different test/train/validation precent
 
 >l=LABR()
 
->(rating, a, b, c, body) = l.read_clean_reviews()
+>(rating, a, b, c, body)=l.read_clean_reviews()
 
 >l.split_train_validation_test_3class(self, rating, percent_test, percent_valid,
                                 balanced="unbalanced"):
